@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="gozero-signature-python",
     version="0.1.0",
-    packages=find_packages(),
+    py_modules=["gozero_signature"],
     install_requires=[
         "pycryptodome>=3.15.0",
     ],
